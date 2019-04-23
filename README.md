@@ -1,0 +1,7 @@
+# Terepasztal: Szoftvertechnológia HF
+
+## Leírás
+
+A Bakter játék egy terepasztal szimulációja. A terepasztal négyzet alakú mezőkre van osztva. Egy mezőben egy vasúti pályaelem lehet, amelynek a következő fajtái vannak: jobb és bal oldalt, alsó és felső oldalt összekötő elemek, kanyarodó elemek (például jobb oldalt alsó oldallal összekötő elem), váltó, amely egy oldalt két másikkal köt össze (pl. bal oldalt jobb oldallal és felső oldallal, de ilyenkor a jobb és a felső oldal között nincs kapcsolat), végül létezik kereszteződés is. A váltókat váltani lehet, ami azt jelenti, hogy egyszerre mindig csak az egyik átmenete működik. Az egyszerű elemeken, amelyek csak két oldalt kötnek össze, szemafor is lehet. Speciális elem a fejállomás, aminek csak egy kijárata van, a vonatok itt "keletkeznek". A pályán vonatok (szerelvények) közlekednek. A vonat pontosan egy mozdonyból és néhány vagonból áll, szélsőséges esetben nincs vagon a mozdonyra kapcsolva (ún. gépmenet). Mind a mozdony, mind a vagon egy mező hosszúságú. A mozdony, ha zárt szemaforhoz ér, megáll, és csak akkor indul tovább, ha a szemafort kinyitják. A játék során a vonatok a fejállomásról véletlenszerűen indulnak, és a pályán haladnak. A játékos a váltókat és a szemaforokat tudja kezelni. Pontot időegységenként az éppen haladó mozdonyok után lehet kapni. Cél, hogy a játékos minél több pontot gyűjtsön. Ha két szerelvény összeütközik, a játéknak vége.
+
+***Készítette: Jurin Maxim, 2017 BME*** 
