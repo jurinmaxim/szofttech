@@ -1,4 +1,4 @@
-# Terepasztal: Szoftvertechnológia HF
+# Terepasztal: Szoftvertechnológia NHF
 
 ## Leírás
 
